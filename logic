@@ -1,0 +1,90 @@
+/*
+	Movimentos:
+	
+		1
+	4	m	2
+		3
+	
+	Grid:
+	
+	0	1	2	3
+	4	5	6	7
+	8	9	10	11
+	12	13	14	15
+	
+*/
+
+/*...*/
+	if (p == 0){
+		
+		/*...*/
+		
+		if (m == 2){			/* Tranformar em Métodos de Movimentos */
+			aux = vetor[p+1];
+			vetor[p+1] = 0;
+			vetor[p] = aux;
+		}
+		
+		if (m == 3){			/* Tranformar em Métodos de Movimentos */
+			aux = vetor[p+4]; 
+			vetor[p+4] = 0;
+			vetor[p] = aux;
+		}
+		
+	}
+	
+	if (p == 3){
+		
+		/*...*/
+		
+		if (m == 4){			/* Tranformar em Métodos de Movimentos */
+			aux = vetor[p-1];
+			vetor[p-1] = 0;
+			vetor[p] = aux;
+		}
+		
+		if (m == 3){			/* Tranformar em Métodos de Movimentos */
+			aux = vetor[p+4];
+			vetor[p+4] = 0;
+			vetor[p] = aux;
+		}
+		
+	}
+	
+	if (p == 12){
+		
+		/*...*/
+		
+		if (m == 1){			/* Tranformar em Métodos de Movimentos */
+			aux = vetor[p-4];
+			vetor[p-4] = 0;
+			vetor[p] = aux;
+		}
+		
+		if (m == 2){			/* Tranformar em Métodos de Movimentos */
+			aux = vetor[p+1];
+			vetor[p+1] = 0;
+			vetor[p] = aux;
+		}
+		
+	}
+	
+	if (p == 15){
+		
+		/*...*/
+		
+		if (m == 1){			/* Tranformar em Métodos de Movimentos */
+			aux = vetor[p-4];
+			vetor[p-4] = 0;
+			vetor[p] = aux;
+		}
+		
+		if (m == 4){			/* Tranformar em Métodos de Movimentos */
+			aux = vetor[p-1];
+			vetor[p-1] = 0;
+			vetor[p] = aux;
+		}
+		
+	}
+	
+/*...*/
